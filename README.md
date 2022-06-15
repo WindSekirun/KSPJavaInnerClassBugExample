@@ -1,6 +1,6 @@
 # KSP Java Inner class Bug Example
 
-This repository has example of reported bug
+This repository has example of reported bug https://github.com/google/ksp/issues/1022
 
 ## Summary
 
