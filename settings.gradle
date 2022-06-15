@@ -1,0 +1,6 @@
+
+rootProject.name = 'KSPJavaInnerClassBugExample'
+include 'annotation'
+include 'processor'
+include 'app'
+

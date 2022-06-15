@@ -1,0 +1,17 @@
+plugins {
+    id 'kotlin'
+    id 'com.google.devtools.ksp' version '1.7.0-1.0.6'
+}
+
+group 'com.github.windsekirun.kspexample'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(project(":annotation"))
+    ksp(project(":processor"))
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0")
+}
